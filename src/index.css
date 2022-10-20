@@ -2,6 +2,14 @@
   box-sizing: border-box;
   align-items: center;
 }
+.main--container{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  padding-left:20;
+  border-width: 20;
+}
 .login--container{
   display: flex;
   align-items: center;
@@ -26,14 +34,16 @@ input{
   height: 15vh;
 }
 .form--top{
-  height: 15vh;
+  height: 18vh;
+  border:2px solid blue;
 }
 img{
   height: 12vh;
   display: flex;
   align-items: center;
-  padding-left: 40%;
+  padding-left: 41%;
   margin: 0px;
+  width: 160;
 }
 #password{
   display: flex;
@@ -43,9 +53,11 @@ img{
 button{
   align-items: center;
   position: relative;
-  margin: 5px;
+  margin: 18px;
   background-color: skyblue;
   color:black;
   font-weight: bold;
   width: 10;
+  padding-top: 5px;
+  
 }

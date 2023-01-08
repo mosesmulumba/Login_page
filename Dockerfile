@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . /app
 
-RUN npm install -g creat-react-app && npm install
+RUN npm install -g create-react-app && npm install
 
 EXPOSE 8000
 
